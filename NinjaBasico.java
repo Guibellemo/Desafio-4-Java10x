@@ -4,13 +4,16 @@ public class NinjaBasico implements Ninja{
 
     String nome;
     int idade;
-    String habilidade;
+    TipoHabilidade habilidade;
 
     public NinjaBasico(String nome, int idade, String habilidade) {
         this.nome = nome;
         this.idade = idade;
-        this.habilidade = habilidade;
+        this.habilidade = TipoHabilidade.valueOf(habilidade);
+
     }
+
+
 
     public NinjaBasico() {
     }
@@ -18,7 +21,7 @@ public class NinjaBasico implements Ninja{
     public void mostrarInformacoes() {
         System.out.println(nome);
         System.out.println(idade);
-        System.out.println(habilidade);
+        System.out.println("Este ninja usa " + habilidade);
 
     }
 
