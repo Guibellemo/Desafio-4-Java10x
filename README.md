@@ -1,1 +1,1 @@
-Você vai criar um programa que gerencia diferentes tipos de ninjas, cada um com suas habilidades e informações. O objetivo é utilizar interfaces e polimorfismo para lidar com diferentes tipos de ninjas e suas habilidades.
+Criar um programa que gerencia diferentes tipos de ninjas, cada um com suas habilidades e informações. O objetivo é utilizar interfaces e polimorfismo para lidar com diferentes tipos de ninjas e suas habilidades.
